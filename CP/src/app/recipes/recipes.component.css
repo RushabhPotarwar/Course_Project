@@ -1,0 +1,9 @@
+.col-md-5{
+    display: flex;
+    justify-content: left;
+    align-items: top;
+}
+
+.col-md-6{
+    margin-left: 15px;
+}

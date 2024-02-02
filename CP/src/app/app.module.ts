@@ -10,6 +10,7 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { RecipeDetailsComponent } from './recipes/recipe-details/recipe-details.component';
 import { FormsModule } from '@angular/forms';
+import { shoppingSer } from './shopping-list/shoppingserv.service';
 
 
 
@@ -28,7 +29,7 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ shoppingSer],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
