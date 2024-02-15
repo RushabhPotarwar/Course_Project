@@ -7,9 +7,4 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class HeaderComponent {
 
-  @Output() feactureSelected= new EventEmitter<string>()
-
-  onSelect(feacture: string){
-    this.feactureSelected.emit(feacture);
-  }
 }

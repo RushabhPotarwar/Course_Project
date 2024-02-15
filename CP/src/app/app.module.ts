@@ -11,6 +11,10 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { RecipeDetailsComponent } from './recipes/recipe-details/recipe-details.component';
 import { FormsModule } from '@angular/forms';
 import { shoppingSer } from './shopping-list/shoppingserv.service';
+import { AppRouting } from './app-routing-module';
+import { RouterModule } from '@angular/router';
+import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
+import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 
 
 
@@ -24,10 +28,14 @@ import { shoppingSer } from './shopping-list/shoppingserv.service';
     RecipeItemComponent,
     ShoppingEditComponent,
     RecipeDetailsComponent,
+    RecipeStartComponent,
+    RecipeEditComponent,
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRouting ,
+    RouterModule 
   ],
   providers: [ shoppingSer],
   bootstrap: [AppComponent]

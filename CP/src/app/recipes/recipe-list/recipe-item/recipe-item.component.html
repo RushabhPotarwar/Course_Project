@@ -2,7 +2,7 @@
     <div class="container mx-auto mt-4"> 
         <div class="row">
             <div class="col-md-4">
-                <a href="#" (click)="detailsCall()" style="text-decoration: none;" >
+                <a style="cursor: pointer;" [routerLink]="[index]" style="text-decoration: none;" >
                 <div class="card" style="width: 18rem;" >
                     <img src="{{recipe.imagePath}}" class="card-img-top" alt="{{recipe.name}}" >
                     <div class="card-body">

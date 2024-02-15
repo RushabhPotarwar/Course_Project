@@ -1,6 +1,5 @@
 <div class="main">
-  <app-header (feactureSelected)="selectedF($event)" ></app-header>
-  <app-recipes *ngIf="fS ==='recipe'"></app-recipes>
-  <app-shopping-list *ngIf="fS !=='recipe'"></app-shopping-list>
+  <app-header></app-header>
+  <router-outlet></router-outlet>
 </div>
 

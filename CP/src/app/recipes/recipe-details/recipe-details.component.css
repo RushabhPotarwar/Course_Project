@@ -1,10 +1,13 @@
 .card-img-top{
-    height: 60vh;
-    width: 40vh;
+    height: 80vh;
+    width: 30vw;
     margin-top: 30px;
     border-radius: 20px;
     border: 1px solid #dd2476;
+
+    object-fit: fill;
 }
+
 
 .list-group-item{
     background-color: #c8ceda;
